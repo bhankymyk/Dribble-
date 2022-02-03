@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .nav-bar{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid rgb(184, 182, 182);
+    margin-top: 1px;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.nav-bar ul li{
+    display: inline;
+    padding: 20px;
+} */
+.log-header{
+    width: 40%;
+}
+.nav-left{
+    position: relative;
+    top: -1.7em;
+    left: 45em;
+    /* float: right;? */
+    padding: 10px;
+    margin-top: 0px;
+}
+.sign{
+    border-radius: 18px;
+    background-color: rgb(252, 7, 178);
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.sign:hover{
+    background-color: rgb(248, 114, 210); 
+}
+.main-left{
+    float: right;
+}
+.main-left li{
+    padding-right: 200px;
+}
+.main-content{
+    margin-top: 70px;
+    margin: auto;
+    width: 70%;
+    /* padding: 20px; */
+}
+.main-content ul li{
+    display: inline;
+    padding: 20px;
+}
+.body-logo{
+    margin-top: 30px;
+}
+.body-logo-img{
+    border-radius: 15px;
+}
+.hire{
+    color: rgb(252, 7, 178);  
+}
+b{
+    font-size: 2rem;
+}
+#left-icon{
+    background-color: rgb(196, 195, 195);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 15px;
+    margin-left: 15px;
+}
+#lefts-icon{
+    background-color: rgb(196, 195, 195);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 15px;
+    margin-left: 15px;
+}
+#left-icon:hover{
+    background-color: rgb(92, 92, 91);
+}
+p b{
+    font-size: 25px;
+    margin: 1rem;
+}
+p{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:rgb(252, 7, 178); ;
+}
+#body-1{font-size: 1.5rem;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    line-height: 0.1em;
+    margin: 30px 15px 15px;
+}
+h2 span{
+    background: white;
+    padding: 0 10px;
+}
+.body-2{
+    margin-top: 70px;
+    margin: auto;
+    width: 70%;
+    padding: 5px;
+}
+ul li{
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+}
+ul li b{
+    font-size: 25px;
+}
+#hire-me{
+    border-radius: 8px;
+    background-color: rgb(250, 44, 192); 
+    font-size: 1rem;
+    font-weight:bold ;
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    width: 10%;
+    position: relative;
+    left: 44%;
+}
+#more{
+    text-align: start;
+}
+#view{
+    text-align: end;
+    cursor: pointer;
+    color: rgb(248, 114, 210);
+}
+#body-image ul li img{
+    border-radius: 8px;
+    width: 20%;
+    height: 20%;
+    border: 0.7rem solid black;
+    padding: 0px;
+}
+#body-image ul li{
+    display: inline;
+}
+#body-image{
+    margin-top: 10px;
+    margin: auto;
+    width: 85%;
+    padding: 5px;
+}
+.footer{
+    background-color: whitesmoke;
+    display: grid;
+	grid-template-columns: 150px 150px 150px 150px 150px 150px;
+	grid-gap: 2rem;
+	/*background-color: #231e6e;
+    float: left;*/
+	height: 100%;
+	width: 100%;
+    /*border-bottom: 3px solid #383838;*/
+}
+.footer-img{
+    color: rgb(248, 114, 210);
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.footer-cointainer{
+    padding: 10px;
+    margin-left: 10px 0px 10px;
+}
+.footer-heading{
+    padding: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.footer-items{
+    padding: 10px;
+    color: #383838;
+    font-size: 1rem;
+    cursor: pointer;
+}
+h6{
+    margin-left: 30px;
+    padding: 5px;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.footer-1 ul li{
+    display: inline;
+}
+.footer-copyright{
+    /* background-color: tomato; */
+    padding: 20px;
+    border-top: 1px solid #383838;
+    margin: auto;
+    width: 75em;
+    height: 90%;
+    display: inline;
+}
+.footer-copyright ul li{
+    display: inline;
+}
+
+.foot-left{
+    float: right;
+    /*padding: 10px;
+    margin-top: 0px;*/
+}
+.foot-img{
+    width: 4%;
+    
+}
+.nav-link{
+    font-size: 1em;
+    white-space: nowrap;
+}
+.btn-sign{
+    white-space: nowrap;
+    margin-left: 15px;
+    background-color: rgb(252, 7, 178);
+    border: none;
+    border-radius: 10px;
+}
+.btn-sign:hover{
+    background-color: rgb(248, 114, 210); 
+}
